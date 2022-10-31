@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(245, 244, 244);
+}
+
+.header {
+  background-color: pink;
+  height: 30px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: black;
+  height: 10%;
+}
+
+.left {
+  height: 560px;
+  width: calc(60% - 10px);
+  margin-right: 10px;
+}
+
+.left-top {
+  background-color: greenyellow;
+  height: calc(55% - 10px);
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.left-bottom {
+  height: 45%;
+  width: 100%;
+  display: flex;
+}
+
+.left-bottom-left {
+  width: 50%;
+  height: 100%;
+  margin-right: 5px;
+}
+
+.left-bottom-left-top {
+  width: 100%;
+  height: 45%;
+  background-color: red;
+}
+
+.left-bottom-left-bottom {
+  width: 100%;
+  height: calc(55% - 10px);
+  background-color: rgb(243, 178, 57);
+  margin-top: 10px;
+}
+
+.left-bottom-right {
+  height: 100%;
+  width: 50%;
+  margin-left: 5px;
+  background-color: rgb(214, 69, 214);
+}
+
+.right {
+  width: 40%;
+  height: 560px;
+}
+
+.right-top {
+  display: flex;
+  height: 110px;
+  width: 100%;
+}
+
+.right-tim {
+  width: calc(75% - 10px);
+  height: 100%;
+  margin-right: 10px;
+  background-color: rgba(182, 170, 194, 0.801);
+}
+
+.right-xanh {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(15, 226, 15);
+}
+
+.right-main {
+  height: calc(100% - 110px);
+}
+
+.right-body {
+  width: 100%;
+  height: calc(76% - 20px);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.right-body-item {
+  height: 100%;
+  width: calc(33.333% - 7px);
+  background-color: rgb(99, 99, 250);
+}
+
+.right-body-center {
+  height: 100%;
+  width: calc(33.333% - 7px);
+  background-color: rgb(247, 107, 107);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right-footer {
+  background-color: burlywood;
+  height: 10%;
+  width: 100%;
+}
+
+.right-header {
+  background-color: yellow;
+  height: calc(14% - 10px);
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer {
+  height: 30px;
+  width: 100%;
+  background-color: black;
+}
