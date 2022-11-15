@@ -53,7 +53,7 @@ p {
   font-size: 16px;
   border: none;
   outline: none;
-  border-bottom: 2px solid #9e9d9d;
+  border-bottom: 1px solid #9e9d9d;
 }
 
 .form-control span {
@@ -66,7 +66,7 @@ p {
 }
 /* tat ca span cung cap với input*/
 .form-control input:focus ~ span {
-  border-bottom: 2px solid var(--success-color);
+  border-bottom: 1px solid var(--success-color);
   width: 100%;
 }
 .form-control p {
@@ -112,6 +112,7 @@ input {
   color: #fff;
   margin-top: 25px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .btn-submit:hover {
   transform: scale(0.98);
