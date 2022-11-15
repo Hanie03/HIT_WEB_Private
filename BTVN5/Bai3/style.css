@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&family=Poppins:wght@100;200;300&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -37,7 +38,7 @@ li {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-/* -----BUG------ */
+
 .header__navbar {
   display: flex;
 }
@@ -62,9 +63,11 @@ li {
   display: flex;
 }
 .header__navbar ul li {
+  color: #fff;
   margin: 0px 25px;
   padding: 15px 0px 10px 0px;
-  color: #fff;
+  font-size: 15px;
+
   cursor: pointer;
 }
 .header__navbar ul li:hover {
@@ -89,24 +92,28 @@ li {
   margin-top: 20px;
 }
 .main-left {
-  width: 290px;
+  width: 300px;
 }
 .main-left h3 {
   margin-top: 40px;
-  font-size: 26px;
+  font-size: 27px;
+  font-weight: 500;
 }
 .main-left h1 {
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 54px;
+  font-weight: 700;
   color: #5f61b9;
-  margin: -20px 0px;
+  margin: -24px 0px;
 }
 .main-left h2 {
-  font-size: 35px;
+  font-size: 42px;
 }
-p {
-  font-size: 15px;
+.main-left p {
+  color: #73739b;
+  font-size: 13px;
+  margin-top: 10px;
 }
+
 .button {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -118,17 +125,19 @@ p {
   outline: none;
   cursor: pointer;
   box-shadow: 1px -1px 15px #9e9ee4;
-  font-size: 15px;
+  color: #a5a7bd;
+  font-size: 14px;
+  font-weight: 600;
   padding: 5px 20px;
   margin-right: 10px;
 }
-/* -----------BUG */
+
 .button button:hover {
   background-color: #4f4fcc;
-  color: #fff;
+  color: rgb(216, 214, 214);
   border: #32338d;
 }
-/* -------- */
+
 .contact i {
   padding: 60px 7px 20px 0px;
   color: #5f60dc;

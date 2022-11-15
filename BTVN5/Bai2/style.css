@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&family=Poppins:wght@100;200;300&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
   --success-color: #df17d5;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +20,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 15px;
 }
 .nhat {
   color: #979292;
@@ -48,7 +50,7 @@ p {
   margin-top: 30px;
 }
 .form-control input {
-  width: 93%;
+  width: 90%;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -107,7 +109,7 @@ input {
   border: none;
   outline: none;
   background: linear-gradient(to right, #61d8de, #e738f5);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: #fff;
   margin-top: 25px;
