@@ -437,10 +437,10 @@ footer {
   .header__navbar {
     display: none;
   }
-  .fa-bars:visited {
+  .header input:visited {
     border: 2px solid rgb(58, 58, 58);
   }
-  .fa-bars:checked ~ .header__navbar {
+  .header input:checked ~ .header__navbar {
     display: block;
     position: fixed;
     top: 100%;
@@ -448,7 +448,7 @@ footer {
     right: 0;
     background-color: #fff;
   }
-  .fa-bars:checked ~ .header__navbar a {
+  .header input:checked ~ .header__navbar a {
     padding: 1rem 0;
   }
   .header__home {
