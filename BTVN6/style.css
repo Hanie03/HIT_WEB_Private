@@ -437,19 +437,28 @@ footer {
   .header__navbar {
     display: none;
   }
-  .header input:visited {
-    border: 2px solid rgb(58, 58, 58);
-  }
-  .header input:checked ~ .header__navbar {
+
+  .navbar-block {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background-color: #fff;
   }
-  .header input:checked ~ .header__navbar a {
-    padding: 1rem 0;
+  .navbar-block .header {
+    position: fixed;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-block .navbar__link {
+    display: block;
+    transition: 0.3s linear;
+    color: #999;
+    padding-left: 15rem;
+    margin-bottom: 2rem;
+  }
+  .navbar-block .navbar__link:hover {
+    color: rgb(255, 102, 0);
   }
   .header__home {
     padding-left: 3rem;
@@ -467,7 +476,7 @@ footer {
 
 @media (max-width: 450px) {
   html {
-    font-size: 45%;
+    font-size: 48%;
   }
   .header__home h1 {
     padding: 4rem 2rem;
@@ -475,6 +484,13 @@ footer {
 
   .header__home p {
     padding: 4.5 2.5rem;
+  }
+  .navbar-block .navbar__link {
+    display: block;
+    transition: 0.3s linear;
+    color: #999;
+    padding-left: 5.5rem;
+    margin-bottom: 2rem;
   }
   .portfolio-images {
     grid-template-columns: 1fr;

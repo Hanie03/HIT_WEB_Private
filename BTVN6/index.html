@@ -16,15 +16,13 @@
     <header>
         <div class="header">
             <a href="#" class="header__logo">Start bootstrap</a>
-            <input type="checkbox" id="toggler" checked>
-            <label for="toggler" class="fas fa-bars"></label>
-
-            <nav class="header__navbar">
+            <nav id="header__navbar-modal" class="header__navbar">
                 <a href="#about" class="navbar__link">about</a>
                 <a href="#services" class="navbar__link">services</a>
                 <a href="#portfolio" class="navbar__link">portfolio</a>
                 <a href="#contact" class="navbar__link">contact</a>
             </nav>
+            <label for="toggler" id="modal" class="fas fa-bars"></label>
         </div>
         <div class="header__home">
             <h1>Your Favorite Place for Free Bootstrap Themes</h1>
@@ -33,7 +31,6 @@
             </p>
             <button>find out more</button>
         </div>
-        <!-- <div class="bg"></div> -->
     </header>
 
     <!-- header section ends -->
@@ -50,6 +47,7 @@
         </div>
     </section>
     <!-- about section ends -->
+
     <!-- services section starts -->
     <section class="services" id="services">
         <div class="service__main">
@@ -82,7 +80,6 @@
         </div>
     </section>
     <!-- services section ends -->
-
 
     <!-- portfolio section starts -->
     <section class="portfolio" id="portfolio">
@@ -170,14 +167,7 @@
     <footer>
         <p>Copyright © 2022 - Company Name</p>
     </footer>
-    <script>
-        window.onscroll = () => {
-            if (window.scrollY > 0) {
-                document.querySelector('.header').classList.add('fixed')
-            } else {
-                document.querySelector('.header').classList.remove('fixed')
-            }
-        }
+    <script src="scrip.js">
     </script>
 </body>
 
