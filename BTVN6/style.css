@@ -13,12 +13,18 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 0;
+  scroll-padding-top: 9rem;
 }
 
 header {
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg") center no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg")
+      center no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -378,6 +384,7 @@ textarea::placeholder {
   font-weight: 500;
   padding: 2rem;
   margin-bottom: 5rem;
+  cursor: pointer;
 }
 .contact-info {
   text-align: center;
@@ -389,7 +396,6 @@ textarea::placeholder {
   border: 1px solid rgb(252, 129, 149);
   outline: 4px solid rgb(248, 205, 212);
 }
-
 footer {
   width: 100%;
   height: 13rem;
@@ -441,6 +447,9 @@ footer {
     left: 0;
     right: 0;
     background-color: #fff;
+  }
+  .fa-bars:checked ~ .header__navbar a {
+    padding: 1rem 0;
   }
   .header__home {
     padding-left: 3rem;
