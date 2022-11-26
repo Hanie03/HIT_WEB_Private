@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.header__top {
+  height: 3rem;
+  background-color: #d00404;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top a {
+  padding: 0 0.6rem;
+  color: #fff;
+}
+
+.home {
+  display: flex;
+  width: 100vw;
+}
+.home nav {
+  width: 20%;
+}
+li a {
+  font-size: 1.2rem;
+}
+.main-menu li {
+  position: relative;
+  width: 100%;
+  line-height: 50px;
+  background-color: #ccc;
+  padding-left: 10px;
+}
+.main-menu li ul.sub-menu {
+  position: absolute;
+  left: 100%;
+  top: 1px;
+  display: none;
+}
+.main-menu li ul.sub-menu li {
+  background-color: #fff;
+  color: black;
+  width: 300px;
+}
+.main-menu li ul.sub-menu li:hover {
+  background-color: #ffff00;
+}
+.main-menu li:hover > ul.sub-menu {
+  display: block;
+}
+li:hover {
+  background-color: #ffff00;
+}
+.header__bottom {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .header__bottom .logo {
+  object-fit: cover;
+  height: 5rem;
+  width: 100%;
+} */
+.header__bottom input {
+  border-radius: 1rem;
+  border: 1px solid #ffff00;
+  padding: 0.5rem;
+  width: 35%;
+}
+.header__bottom input::placeholder {
+  color: #999;
+}
+.header__bottom i {
+  font-size: 1.6rem;
+}
+.home__content {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.home__content img {
+  width: 100%;
+  height: 15rem;
+  padding: 2rem 3rem;
+  object-fit: cover;
+  object-position: center;
+}
+.box-item {
+  border: 1px solid #666;
+}
+.box-item-content {
+  padding: 0 1.5rem;
+}
+.box-item-content .content-price {
+  display: flex;
+  justify-content: space-between;
+}
+.box-item-content .content-price p {
+  color: red;
+}
+.box-item-content .content-price p span {
+  text-decoration: underline;
+  color: black;
+}
+.box-item-content .price-left > span {
+  text-decoration: line-through;
+  color: rgb(146, 143, 143);
+}
+.box-item-content hr {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0.8rem 0;
+}
+.content-price {
+  position: relative;
+}
+.content-price > span {
+  position: absolute;
+  top: 0;
+  left: 5.5rem;
+  padding: 0.2rem;
+  background-color: red;
+  color: #fff;
+}
+
+.price-right i {
+  padding: 0.4rem;
+  border: 1px solid rgb(161, 160, 160);
+}
