@@ -1,0 +1,90 @@
+<!-- ---------------------OPERATORS--------------------- -->
+<!-- 1. Comparison Operators -->
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+<!-- 2. Logical Operators -->
+&&	 and
+||	 or
+!	 not
+
+<!-- 3. Bitwise Operators -->
+&	AND     
+|	OR
+~	NOT
+^	XOR
+<<	left shift
+>>	right shift
+>>>	unsigned right shift
+
+<!-- 4. Arithmectic Operators -->
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation
+/	Division
+%	Modulus (Remainder)
+++	Increment
+--	Decrement
+
+<!-- 5. Assignment Operators -->
+=
++=
+-=
+*=
+/=
+%=
+**=
+
+<!-- 6. Conditional (ternary) operator -->
+condition ? exprIfTrue : exprIfFalse
+
+- condition: An expression whose value is used as a condition.
+- exprIfTrue: An expression which is executed if the condition evaluates to a truthy value (one which equals or can be converted to true).
+- exprIfFalse: An expression which is executed if the condition is falsy (that is, has a value which can be converted to false).
+
+<!-- ---------------------LET, CONST, VAR--------------------- -->
+var: 
+- hoisting
+- function scope, global scope
+- can be re-declared and updated
+- initialized: undefined
+
+let & const: not hoisting
+- let is used for variable which can be changed
+- const is used for a variable which doesn’t change till the program ends
+- block scope, global scope
+- not initialized
+
+P/S:
++ function scope: When a variable is declared inside a function, it is only accessible within that function and   cannot be used outside that function.
++ global scope: When a variable is declared outside a function, it is global scope, all the other functions and variables are contained in this global scope.
++ block scope: the variables declared inside the curly braces {} are called as within block scope that is they are only accessible within that particular block.
+
+<!-- --------------------- CONDITION STATEMENTS--------------------- -->
+<!-- 1. if -->
+if (condition) {
+  // block of code to be executed if the condition is true
+}
+<!-- 2. if...else -->
+if (condition) {
+  // block of code to be executed if the condition is true
+} else {
+  // block of code to be executed if the condition is false
+}
+
+<!-- 3. if..else if...else -->
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
